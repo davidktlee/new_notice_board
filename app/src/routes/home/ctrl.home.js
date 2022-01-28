@@ -3,7 +3,7 @@
 
 const output = {
   hello: (req, res) => {
-    res.render('/home/index')
+    res.render('home/index')
   },
   login: (req, res) => {
     res.render('home/login')
